@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccounts_instadgtst_name": {
+            "value": null
+        },
+        "loadBalancers_testmywebsrvlb_name": {
+            "value": null
+        },
+        "publicIPAddresses_testmywebsrv_name": {
+            "value": null
+        },
+        "virtualMachineScaleSets_testmywebsrv_name": {
+            "value": null
+        },
+        "autoscalesettings_cpuautoscaletestmyweb_name": {
+            "value": null
+        },
+        "virtualNetworks_infra_tst_externalid": {
+            "value": null
+        },
+        "disks_testmywebsrv_testmywebsrv_6_OsDisk_1_b724907abacd4b8583d2fa185cd85cba_externalid": {
+            "value": null
+        }
+    }
+}
