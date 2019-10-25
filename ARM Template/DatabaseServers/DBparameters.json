@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "stackId": {
+            "value": "testmysql"
+        },
+        "appDatabase": {
+            "value": "wordpressdb"
+        },
+        "appPassword": {
+            "value": null
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "vmSize": {
+            "value": "Standard_D1_v2"
+        },
+        "dataDiskSize": {
+            "value": 50
+        },
+        "slaveCount": {
+            "value": 2
+        }
+    }
+}
